@@ -7,7 +7,7 @@ export default function HistorySec() {
     const [filter, setFilter] = useState("all");
     async function getHistory() {
         try {
-            const res = await fetch("http://localhost:3000/history");
+            const res = await fetch("/history");
             const data = await res.json();
             setHistory(data.history);
 
@@ -22,7 +22,7 @@ export default function HistorySec() {
 
    async function clearHistory() {
 
-    const res = await fetch("http://localhost:3000/history", {
+    const res = await fetch("/history", {
         method: "DELETE"
     });
 

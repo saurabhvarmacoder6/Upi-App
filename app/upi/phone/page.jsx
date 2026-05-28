@@ -9,7 +9,7 @@ export default function Phone() {
     const [users, setUsers] = useState({ message: [] });
     const [search, setSearch] = useState("");
     async function getUsers() {
-        const res = await fetch("http://localhost:3000/users");
+        const res = await fetch("/users");
         const data = await res.json();
         setUsers(data);
     }

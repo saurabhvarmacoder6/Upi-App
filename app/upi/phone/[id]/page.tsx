@@ -14,7 +14,7 @@ export default function PayUi() {
 
     async function decAmount() {
         try {
-            const res = await fetch("http://localhost:3000/users/6a166cadaf543f1e54bac4fa", {
+            const res = await fetch("/users/6a166cadaf543f1e54bac4fa", {
                 method: "PUT",
                 headers: {
                     "Content-Type": "application/json"
@@ -32,7 +32,7 @@ export default function PayUi() {
     }
 
     async function getBalance() {
-        const res = await fetch("http://localhost:3000/users/6a166cadaf543f1e54bac4fa");
+        const res = await fetch("/users/6a166cadaf543f1e54bac4fa");
         const data = await res.json();
         setBalance(data.message.balance)
     }
@@ -41,7 +41,7 @@ export default function PayUi() {
 
     async function getUser() {
         try {
-            const res = await fetch(`http://localhost:3000/users/${id}`);
+            const res = await fetch(`/users/${id}`);
             const user = await res.json();
             setUser(user.message);
             setName(user.message.user);
@@ -57,7 +57,7 @@ export default function PayUi() {
 
     async function postData() {
         try {
-            const res = await fetch("http://localhost:3000/history", {
+            const res = await fetch("/history", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"

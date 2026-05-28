@@ -11,7 +11,7 @@ export default function SelfBank() {
 
     async function getUsers() {
         try {
-            const res = await fetch("http://localhost:3000/users/6a166cadaf543f1e54bac4fa", {
+            const res = await fetch("/users/6a166cadaf543f1e54bac4fa", {
                 method: "PUT",
                 headers: {
                     "Content-Type": "application/json"
@@ -30,7 +30,7 @@ export default function SelfBank() {
 
     async function postData(){
         try{
-            const res = await fetch("http://localhost:3000/history", {
+            const res = await fetch("/history", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"

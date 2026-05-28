@@ -11,7 +11,7 @@ export default function CheckBalance() {
 
     async function getUsers() {
         try {
-            const res = await fetch("http://localhost:3000/users");
+            const res = await fetch("/users");
             const data = await res.json();
             setUsers(data);
         } catch (error) {
