@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 UPI Payment Simulation App
 
-## Getting Started
+A full-stack UPI-inspired payment application built using Next.js, MongoDB, and Tailwind CSS.
 
-First, run the development server:
+## 🌐 Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+https://upi-app-eosin.vercel.app/upi
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📌 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Send Money to Mobile Number
+- Self Account Transfer
+- Bank Transfer Simulation
+- Check Account Balance
+- Transaction History
+- User Search Functionality
+- QR Code Generation
+- QR Code Scanner
+- Responsive Mobile-First UI
+- MongoDB Database Integration
+- REST API Based Architecture
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack
 
-## Learn More
+### Frontend
+- Next.js
+- React.js
+- Tailwind CSS
 
-To learn more about Next.js, take a look at the following resources:
+### Backend
+- Next.js API Routes
+- JavaScript
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Database
+- MongoDB
+- Mongoose
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Deployment
+- Vercel
 
-## Deploy on Vercel
+## 📷 Screenshots
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<img width="499" height="839" alt="image" src="https://github.com/user-attachments/assets/5204262c-6c21-464c-b358-151272bd3ea4" />
+<img width="533" height="833" alt="image" src="https://github.com/user-attachments/assets/3a3e998b-e805-49e8-a7b2-ceb5dd470577" />
+<img width="547" height="856" alt="image" src="https://github.com/user-attachments/assets/b0f1e4bf-f65d-4888-844f-abcb7f141fd4" />
+<img width="539" height="849" alt="image" src="https://github.com/user-attachments/assets/4f060a20-bfb0-42bd-b57f-66ddec9a9574" />
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## 📚 What I Learned
+
+During this project, I learned:
+
+- API creation and integration
+- MongoDB & Mongoose
+- State management
+- Dynamic Routing
+- Form validation
+- QR code generation and scanning
+- Error handling and debugging
+- Deployment with Vercel
+- Building responsive mobile-first applications
+
+## ⚠️ Disclaimer
+
+This project is a learning project and simulates UPI functionality.
+No real financial transactions are performed.
+
+## 👨‍💻 Author
+
+Saurabh Kumar
